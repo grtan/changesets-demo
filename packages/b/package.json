@@ -1,0 +1,15 @@
+{
+  "name": "@changesets-demo/b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@changesets-demo/a": "workspace:^1.0.0"
+  }
+}
