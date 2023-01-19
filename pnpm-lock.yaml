@@ -11,7 +11,10 @@ importers:
       typescript: 4.9.4
 
   packages/a:
-    specifiers: {}
+    specifiers:
+      '@changesets-demo/d': workspace:^1.0.0
+    dependencies:
+      '@changesets-demo/d': link:../d
 
   packages/b:
     specifiers: {}
