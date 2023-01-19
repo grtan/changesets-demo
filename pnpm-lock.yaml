@@ -10,25 +10,21 @@ importers:
       '@changesets/cli': 2.26.0
       typescript: 4.9.4
 
+  packages/a:
+    specifiers: {}
+
   packages/b:
-    specifiers:
-      '@changesets-demo/a': workspace:^1.0.0
-    dependencies:
-      '@changesets-demo/a': link:../a
+    specifiers: {}
 
   packages/c:
     specifiers:
+      '@changesets-demo/a': workspace:^1.0.0
       '@changesets-demo/b': workspace:^1.0.0
     dependencies:
+      '@changesets-demo/a': link:../a
       '@changesets-demo/b': link:../b
 
-  packages/module-a:
-    specifiers: {}
-
-  packages/module-b:
-    specifiers: {}
-
-  packages/module-c:
+  packages/d:
     specifiers: {}
 
 packages:

@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@changesets-demo/a": "workspace:^1.0.0",
     "@changesets-demo/b": "workspace:^1.0.0"
   }
 }
