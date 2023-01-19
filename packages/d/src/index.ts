@@ -1,3 +1,3 @@
 export function print() {
-  console.log('module d')
+  console.log('module d xx')
 }
