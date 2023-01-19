@@ -12,20 +12,20 @@ importers:
 
   packages/a:
     specifiers:
-      '@changesets-demo/d': workspace:^1.0.0
+      '@greenhand/changeset-demo-d': workspace:^1.0.0
     dependencies:
-      '@changesets-demo/d': link:../d
+      '@greenhand/changeset-demo-d': link:../d
 
   packages/b:
     specifiers: {}
 
   packages/c:
     specifiers:
-      '@changesets-demo/a': workspace:^1.0.0
-      '@changesets-demo/b': workspace:^1.0.0
+      '@greenhand/changeset-demo-a': workspace:^1.0.0
+      '@greenhand/changeset-demo-b': workspace:^1.0.0
     dependencies:
-      '@changesets-demo/a': link:../a
-      '@changesets-demo/b': link:../b
+      '@greenhand/changeset-demo-a': link:../a
+      '@greenhand/changeset-demo-b': link:../b
 
   packages/d:
     specifiers: {}

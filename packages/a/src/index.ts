@@ -1,4 +1,4 @@
-import { print as dPrint } from '@changesets-demo/d'
+import { print as dPrint } from '@greenhand/changeset-demo-d'
 
 export function print() {
   dPrint()

@@ -1,9 +1,9 @@
 {
-  "name": "changesets-demo",
+  "name": "@greenhand/changeset-demo",
   "private": true,
   "description": "",
   "scripts": {
-    "build": "pnpm --filter ./packages run build",
+    "build": "pnpm --filter=./packages/* run build",
     "publish": "pnpm run build && changeset publish"
   },
   "keywords": [],

@@ -1,5 +1,5 @@
 {
-  "name": "@changesets-demo/c",
+  "name": "@greenhand/changeset-demo-c",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@changesets-demo/a": "workspace:^1.0.0",
-    "@changesets-demo/b": "workspace:^1.0.0"
+    "@greenhand/changeset-demo-a": "workspace:^1.0.0",
+    "@greenhand/changeset-demo-b": "workspace:^1.0.0"
   }
 }
