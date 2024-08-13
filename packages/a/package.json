@@ -1,6 +1,6 @@
 {
   "name": "@greenhand/changeset-demo-a",
-  "version": "1.0.0",
+  "version": "0.0.0-snapshottest-20240813160924",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
